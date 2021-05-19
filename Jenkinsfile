@@ -3,8 +3,13 @@ pipeline {
   stages {     
     stage("Build") {
             steps {
-                sh 'mvn clean test'
+                sh 'mvn clean install'
                
+            }
+    }
+    stage('Test') {
+            steps {
+                sh 'mvn test'
             }
     }
     stage('Sonarqube Analysis') {
