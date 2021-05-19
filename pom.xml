@@ -5,7 +5,7 @@
     <artifactId>jenkins-shared-library</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
-    <description>Testing a Pipeline Shared Library with Spock</description>
+    <description>java-demo-app</description>
 
     <repositories>
         <repository>
